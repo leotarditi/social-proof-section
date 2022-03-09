@@ -67,7 +67,7 @@ header p{
   text-align: center;
 }
 /************CARDS****************/
-.cardscontainer{
+.cardcontainer{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -126,7 +126,7 @@ header p{
   .star3{
     align-self: flex-end;
   }
-  .cardscontainer{
+  .cardcontainer{
     padding: 0 14px;
   }
   .card1{
@@ -150,7 +150,7 @@ header p{
     height: 50px;
     justify-content: center;
   }
-  .cardscontainer{
+  .cardcontainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -181,7 +181,7 @@ header p{
   .starcontainer{
     grid-column: 6/-1;
   }
-  .cardscontainer{
+  .cardcontainer{
     grid-column: 1/-1;
   }
   footer{
@@ -194,6 +194,10 @@ header p{
     background-size: 580px;
   }
   .container{
+    margin: 125px auto;
+    max-width: 1110px;
+  }
+  .cardcontainer{
     display: flex;
     flex-direction: row;
     padding: 0;
